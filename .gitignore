@@ -1,40 +1,108 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# ========================
+# OS-specific
+# ========================
 
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
+# Linux
 *~
-~*
-_autosave-*
-\#auto_saved_files\#
+.directory
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ========================
+# IDEs & Editors
+# ========================
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+.classpath
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+Session.vim
+.netrwhist
+tags
+
+# Emacs
+*~
+\#*\#
+*.elc
+.emacs.desktop
+auto-save-list/
+
+# ========================
+# Build & Compilation
+# ========================
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.lst
+build/
+
+# ========================
+# FreeCAD
+# ========================
+*.FCStd1
+*.FCBak
+
+# ========================
+# Archives & Binaries
+# ========================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ========================
+# Logs & Temp
+# ========================
+*.log
 *.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
-~*.lck
-\#auto_saved_files#
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
-*.xml
-*.csv
-
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
-
-# Local project settings
-*.kicad_prl
+*.temp
+*.cache
