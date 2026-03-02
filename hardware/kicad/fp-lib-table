@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "OmarRemote2")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints")(options "")(descr "OmarRemote2 project footprints"))
+)
