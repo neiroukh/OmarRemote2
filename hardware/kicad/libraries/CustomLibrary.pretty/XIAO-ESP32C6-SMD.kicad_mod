@@ -436,7 +436,7 @@
 		(uuid "313edcfe-ad25-4ea7-b786-d8290dfb479a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/models/step/Seeed Studio XIAO ESP32-C6.step"
+	(model "${KIPRJMOD}/libraries/models/Seeed Studio XIAO ESP32-C6.step"
 		(offset
 			(xyz 6 -1.5 0)
 		)

@@ -200,7 +200,7 @@
 		(uuid "2cf3d8c3-76a5-4810-9244-aa9dbdbe2d89")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/models/wrl/SW-TH_4P-L6.0-W6.0-H5.0-LS6.5-P4.50.wrl"
+	(model "${KIPRJMOD}/libraries/models/SW-TH_4P-L6.0-W6.0-H5.0-LS6.5-P4.50.wrl"
 		(offset
 			(xyz 0 -0 0)
 		)
