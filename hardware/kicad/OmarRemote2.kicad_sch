@@ -1475,151 +1475,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TP4056_USB-C_Protect_Module:TP4056_USB-C_Protect_Module"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BC"
-				(at 7.62 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Battery Charger USB-C, Battery Charger, 18650 Charger"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TP4056_USB-C_Protect_Module_0_1"
-				(rectangle
-					(start 0 -1.27)
-					(end 15.24 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TP4056_USB-C_Protect_Module_1_1"
-				(pin power_in line
-					(at 17.78 -2.54 180)
-					(length 2.54)
-					(name "OUT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -6.35 180)
-					(length 2.54)
-					(name "BAT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -10.16 180)
-					(length 2.54)
-					(name "BAT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 -13.97 180)
-					(length 2.54)
-					(name "OUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1998,6 +1853,12 @@
 		(uuid "44acffe3-ae9b-43d6-bfbb-7b75139b4c74")
 	)
 	(junction
+		(at 140.97 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b9b8229-766d-4e60-abe5-8506cd542bb7")
+	)
+	(junction
 		(at 57.15 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2307,6 +2168,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 86.36) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745a2f1c-aeef-4395-b63e-45f560210ec8")
+	)
+	(wire
+		(pts
 			(xy 57.15 81.28) (xy 57.15 96.52)
 		)
 		(stroke
@@ -2477,17 +2348,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 170.18) (xy 102.87 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b23c89e1-2230-4be1-aee5-00e55e6b1dce")
-	)
-	(wire
-		(pts
-			(xy 140.97 82.55) (xy 133.35 82.55)
+			(xy 133.35 82.55) (xy 140.97 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2504,16 +2365,6 @@
 			(type default)
 		)
 		(uuid "b5715db2-fe56-4341-86ff-9c4f2d9c7270")
-	)
-	(wire
-		(pts
-			(xy 99.06 173.99) (xy 102.87 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c38ab0-f692-467a-a954-0bb8e6a52b74")
 	)
 	(wire
 		(pts
@@ -2544,16 +2395,6 @@
 			(type default)
 		)
 		(uuid "ba0d1eeb-3cdf-4b77-b675-f94620ff0ea6")
-	)
-	(wire
-		(pts
-			(xy 99.06 177.8) (xy 102.87 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1610595-fad6-4f27-b31b-5f9df27825e0")
 	)
 	(wire
 		(pts
@@ -2627,16 +2468,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 166.37) (xy 102.87 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef4de614-0c1f-4c0b-807c-79c215fd1fb4")
-	)
-	(wire
-		(pts
 			(xy 99.06 143.51) (xy 102.87 143.51)
 		)
 		(stroke
@@ -2674,6 +2505,26 @@
 			(type default)
 		)
 		(uuid "fac25e2b-6318-4efc-aa43-2f43d9e8881a")
+	)
+	(label "ESP+"
+		(at 266.7 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00be51f7-512b-4e50-bafe-18c756776974")
+	)
+	(label "ESP+"
+		(at 140.97 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ae72063-c097-434e-87e9-5a1e7ec608a1")
 	)
 	(label "VCC"
 		(at 118.11 82.55 180)
@@ -2828,28 +2679,6 @@
 		(uuid "23df7823-95b5-4012-88d8-d6b26996ec06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.7241 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT-"
-		(shape input)
-		(at 102.87 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d213594-08c0-4514-83dd-eb3164afa116")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0562 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,28 +2952,6 @@
 			)
 		)
 	)
-	(global_label "OUT-"
-		(shape input)
-		(at 228.6 44.45 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "967091a1-6e17-4d9d-8e6d-3b5f264b682d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 52.6362 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 170.18 40.64 0)
@@ -3189,50 +2996,6 @@
 			)
 		)
 	)
-	(global_label "BAT-"
-		(shape input)
-		(at 102.87 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a7954424-151a-4ca9-84c3-c8cd122b139c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.7538 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 102.87 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8cb6384-47d4-4fea-9916-221f54d4c301")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.7538 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BAT+"
 		(shape input)
 		(at 85.09 143.51 180)
@@ -3251,28 +3014,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT+"
-		(shape input)
-		(at 102.87 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b7a923f7-9a60-40bb-8b5c-f07689034b0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0562 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3317,28 +3058,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT+"
-		(shape input)
-		(at 266.7 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8c98030-467f-4828-97ca-715fb60d756b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7 36.2638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3981,7 +3700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomLibrary:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
 			(at 45.72 76.2 0)
 			(effects
 				(font
@@ -4115,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomLibrary:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
 			(at 45.72 106.68 0)
 			(effects
 				(font
@@ -4183,7 +3902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomLibrary:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
 			(at 45.72 60.96 0)
 			(effects
 				(font
@@ -4220,80 +3939,6 @@
 			(project ""
 				(path "/1bf0dd3a-ef06-4d9e-bc1a-d833f6081a87"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TP4056_USB-C_Protect_Module:TP4056_USB-C_Protect_Module")
-		(at 81.28 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cf84a3b-89f9-49b3-9719-7cec0a3136c1")
-		(property "Reference" "BC1"
-			(at 88.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery Charger"
-			(at 88.9 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "cef173a5-8d00-4052-891f-d6bfdce34e2c")
-		)
-		(pin ""
-			(uuid "fdb48a1f-95a6-4a97-9730-a4dc0cf3aed4")
-		)
-		(pin ""
-			(uuid "e71dbe42-fc67-423c-a209-c90dc104e337")
-		)
-		(pin ""
-			(uuid "d9032ce2-77b9-4fe8-b15b-6155e6b1010b")
-		)
-		(instances
-			(project ""
-				(path "/1bf0dd3a-ef06-4d9e-bc1a-d833f6081a87"
-					(reference "BC1")
 					(unit 1)
 				)
 			)
@@ -4396,7 +4041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 125.73 82.55 0)
 			(effects
 				(font
@@ -4675,7 +4320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomLibrary:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
 			(at 45.72 45.72 0)
 			(effects
 				(font
@@ -4712,6 +4357,73 @@
 			(project ""
 				(path "/1bf0dd3a-ef06-4d9e-bc1a-d833f6081a87"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eeb95f6-1886-435e-a65e-4bb70a5a21b6")
+		(property "Reference" "#PWR012"
+			(at 222.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "451dea96-f99e-4b18-a4c3-e2cd3766a701")
+		)
+		(instances
+			(project "OmarRemote2"
+				(path "/1bf0dd3a-ef06-4d9e-bc1a-d833f6081a87"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4809,7 +4521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomLibrary:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
 			(at 45.72 91.44 0)
 			(effects
 				(font
@@ -5011,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomLibrary:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
 			(at 45.72 31.75 0)
 			(effects
 				(font
