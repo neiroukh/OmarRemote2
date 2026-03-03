@@ -613,6 +613,18 @@
     [
       "1bf0dd3a-ef06-4d9e-bc1a-d833f6081a87",
       "Root"
+    ],
+    [
+      "fe469156-d51c-469a-8b4f-100297d17773",
+      "charging"
+    ],
+    [
+      "f9ec4f0f-1409-4883-b64a-7d6786e0edf0",
+      "battery protection"
+    ],
+    [
+      "8b541760-edec-40d4-b832-403ae4cf48ff",
+      "USB-C charging"
     ]
   ],
   "text_variables": {}
