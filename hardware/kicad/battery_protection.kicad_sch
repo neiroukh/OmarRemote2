@@ -615,7 +615,7 @@
 		)
 	)
 	(rectangle
-		(start 120.65 69.85)
+		(start 119.38 69.85)
 		(end 161.798 122.174)
 		(stroke
 			(width 0)
@@ -628,7 +628,7 @@
 	)
 	(text "Battery Protection (2.9V & 4.25V)"
 		(exclude_from_sim no)
-		(at 137.414 68.834 0)
+		(at 135.636 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)

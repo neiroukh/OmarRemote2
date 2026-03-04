@@ -5,6 +5,148 @@
 	(uuid "eebe27cc-d686-4a80-a540-7ea6a8ca2157")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CustomLibary:CN3163"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -388,189 +530,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -892,16 +851,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 160.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554c93ba-5a06-470f-964f-65a819ea732f")
-	)
-	(wire
-		(pts
 			(xy 162.56 96.52) (xy 176.53 96.52)
 		)
 		(stroke
@@ -942,6 +891,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 82.55) (xy 160.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc8b73f-d69d-43e2-8d0e-3b156ad0d508")
+	)
+	(wire
+		(pts
 			(xy 123.19 106.68) (xy 121.92 106.68)
 		)
 		(stroke
@@ -959,6 +918,16 @@
 			(type default)
 		)
 		(uuid "9b6acb67-4b34-44c6-8fdf-824ef90cbc3e")
+	)
+	(wire
+		(pts
+			(xy 170.18 77.47) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4669170-91f9-4698-840f-09bd9b84a3ed")
 	)
 	(wire
 		(pts
@@ -1022,6 +991,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 77.47) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bd19fc-2069-4bc1-bdc7-5862503749fb")
+	)
+	(wire
+		(pts
 			(xy 130.81 91.44) (xy 132.08 91.44)
 		)
 		(stroke
@@ -1052,13 +1031,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 170.18 85.09)
+			(xy 170.18 82.55) (xy 170.18 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df040aca-32ac-4bc5-8c05-cd1334d12389")
+		(uuid "e2a2d536-596e-4062-809f-684eed9d96a0")
 	)
 	(wire
 		(pts
@@ -1204,6 +1183,74 @@
 			(project ""
 				(path "/c69611da-aef9-4e7f-84dd-c3352cbc0e8c/a3a27b0a-5688-4af1-8605-bb592f0ec75a"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 154.94 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0833bac7-b3ef-41d0-ace0-ff87e56a149b")
+		(property "Reference" "LEDPlug2"
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccee198a-485d-4289-b630-585fa6a7716a")
+		)
+		(pin "2"
+			(uuid "fe3778c6-a53d-4bb1-80b7-ba953d7dcbe9")
+		)
+		(instances
+			(project ""
+				(path "/1bf0dd3a-ef06-4d9e-bc1a-d833f6081a87/fe469156-d51c-469a-8b4f-100297d17773"
+					(reference "LEDPlug2")
 					(unit 1)
 				)
 			)
@@ -1411,7 +1458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220"
 			(at 167.64 71.1199 0)
 			(effects
 				(font
@@ -1478,35 +1525,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 170.18 81.28 90)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 175.26 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87c69d5d-d2aa-49dc-8eb4-324bcb36035b")
-		(property "Reference" "D4"
-			(at 173.99 81.5974 90)
+		(uuid "6e67c0c4-eefa-4b5b-8c59-69d4a172cd9d")
+		(property "Reference" "LEDPlug1"
+			(at 177.8 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 173.99 84.1374 90)
+		(property "Value" "Conn_01x02"
+			(at 177.8 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 170.18 81.28 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 81.28 0)
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,26 +1570,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C12624"
-			(at 173.99 81.5974 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,21 +1580,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c35356af-ad9b-4e40-bb67-d44125dbf62a")
+			(uuid "b08e0b46-aeb2-44b7-8e95-b06b5258659e")
 		)
 		(pin "2"
-			(uuid "b34f07f9-c03e-4c53-abab-64739b6a37be")
+			(uuid "4ef15b15-973c-4ce3-896d-ad9f23e5f193")
 		)
 		(instances
-			(project "µUPS"
+			(project "OmarRemote2"
 				(path "/1bf0dd3a-ef06-4d9e-bc1a-d833f6081a87/fe469156-d51c-469a-8b4f-100297d17773"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "µUPS"
-				(path "/c69611da-aef9-4e7f-84dd-c3352cbc0e8c/a3a27b0a-5688-4af1-8605-bb592f0ec75a"
-					(reference "D2")
+					(reference "LEDPlug1")
 					(unit 1)
 				)
 			)
@@ -1640,100 +1663,6 @@
 			(project ""
 				(path "/c69611da-aef9-4e7f-84dd-c3352cbc0e8c/a3a27b0a-5688-4af1-8605-bb592f0ec75a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 160.02 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbab2f1e-b2eb-4b0b-9a59-64575932ea5d")
-		(property "Reference" "D3"
-			(at 163.83 81.5974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 163.83 84.1374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965799"
-			(at 163.83 81.5974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9b48c8e-9a61-4286-9462-ae53617f5df5")
-		)
-		(pin "2"
-			(uuid "9b13e294-aad8-4148-a42d-99a7d19463a0")
-		)
-		(instances
-			(project ""
-				(path "/1bf0dd3a-ef06-4d9e-bc1a-d833f6081a87/fe469156-d51c-469a-8b4f-100297d17773"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c69611da-aef9-4e7f-84dd-c3352cbc0e8c/a3a27b0a-5688-4af1-8605-bb592f0ec75a"
-					(reference "D1")
 					(unit 1)
 				)
 			)
